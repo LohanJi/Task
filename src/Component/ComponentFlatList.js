@@ -5,8 +5,8 @@ const ComponentFlatList = ({data}) => {
   
 
   const renderItem = ({ item }) => (
-    <View style={{ padding: 10, backgroundColor: 'white', marginVertical: 5 }}>
-      <Text style={{fontSize: 14, color: 'black', fontWeight: '800'}}>{item.branchName}</Text>
+    <View style={{ padding: 15, backgroundColor: 'white', marginVertical: 5, borderRadius: 10}}>
+      <Text style={{fontSize: 14, color: 'black', fontWeight: '800', marginBottom: 5}}>{item.branchName}</Text>
       <Text style={{fontSize: 14, color: 'gray', fontWeight: '300'}}>{item.email}</Text>
     </View>
   );
